@@ -19,6 +19,9 @@ The Privacy Compliance Scanner is a python command-line application that scans s
 * **Modular Architecture**: Organized functions for file scanning (`scan_file`), directory traversal (`scan_directory`), comment stripping, pattern loading, and report generation. See image below for directory of the tool.
   
   ![image](https://github.com/user-attachments/assets/e379a980-cde8-443d-8f5e-9d4350b445f1)
+
+  ![image](https://github.com/user-attachments/assets/f3954a6e-3d0f-40fb-a4b7-aa9e3fb074f0)
+
 * **Interactive CLI**: Menu-driven interface for scanning code, loading custom patterns, reviewing results, and exporting reports without complex flags.
 * **Configurable Patterns**: JSON-based pattern files allow easy extension to additional privacy regulations (GDPR, CCPA, HIPAA, LGPD, etc.).
 * **Multi-Language Support**: Automatic detection of file types by extension (`.py`, `.c`, `.cpp`, `.cc`, `.h`, `.hpp`, `.java`, `.js`) to apply comprehensive privacy checks.
