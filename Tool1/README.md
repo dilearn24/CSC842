@@ -76,8 +76,8 @@ Default patterns cover GDPR and CCPA categories. To add or override the default 
 
 * **Code**: `privacy_compliance_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**: [https://youtu.be/VIDEO\_ID](https://youtu.be/VIDEO_ID)
-
+* **Demo Video**
+  
 ## Resources
 
 1. “General Data Protection Regulation (GDPR) – legal text,” General Data Protection Regulation (GDPR), Apr. 22, 2024. Available: [https://gdpr-info.eu/](https://gdpr-info.eu/)
