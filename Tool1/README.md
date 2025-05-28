@@ -15,7 +15,7 @@ The Privacy Compliance Scanner is a python command-line application that scans s
 
 ## Requirements & Design
 
-* **Environment**: Python 3.6 or higher, using standard library modules (`argparse`, `os`, `re`, `json`, `sys`).
+* **Environment**: Python 3.6 or higher, using standard library modules (`os`, `re`, `json`, `sys`).
 * **Modular Architecture**: Organized functions for file scanning (`scan_file`), directory traversal (`scan_directory`), comment stripping, pattern loading, and report generation. See image below for directory of the tool.
   
   ![image](https://github.com/user-attachments/assets/f3954a6e-3d0f-40fb-a4b7-aa9e3fb074f0)
