@@ -76,7 +76,7 @@ Default patterns cover GDPR and CCPA categories. To add or override the default 
 
 * **Code**: `privacy_compliance_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**
+* **Demo Video**: [https://youtu.be/L5NGIU4xIbc] (https://youtu.be/L5NGIU4xIbc)
   
 ## Resources
 
