@@ -1,0 +1,18 @@
+[
+    {
+      "pattern": "\\bstrcat\\s*\\(",
+      "description": "strcat() (no bounds checking)"
+    },
+    {
+      "pattern": "\\bsprintf\\s*\\(",
+      "description": "sprintf() (format overflow)"
+    },
+    {
+      "pattern": "\\bmemcpy\\s*\\(",
+      "description": "memcpy() (can overflow without length check)"
+    },
+    {
+      "pattern": "\\bmemmove\\s*\\(",
+      "description": "memmove() (potential overlap issues)"
+    }
+  ]  

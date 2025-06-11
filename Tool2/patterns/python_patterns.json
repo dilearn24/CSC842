@@ -1,0 +1,55 @@
+[
+    {
+      "pattern": "\\beval\\s*\\(",
+      "description": "eval()"
+    },
+    {
+      "pattern": "\\bexec\\s*\\(",
+      "description": "exec()"
+    },
+    {
+      "pattern": "\\binput\\s*\\(",
+      "description": "input() in Python 2 (unsafe)"
+    },
+    {
+      "pattern": "\\bos\\.system\\s*\\(",
+      "description": "os.system()"
+    },
+    {
+      "pattern": "\\bsubprocess\\.Popen\\s*\\(\\s*.*?shell\\s*=\\s*True",
+      "description": "subprocess.Popen(..., shell=True)"
+    },
+    {
+      "pattern": "\\bpickle\\.loads\\s*\\(",
+      "description": "pickle.loads() (unsafe deserialization)"
+    },
+    {
+      "pattern": "\\bmarshal\\.loads\\s*\\(",
+      "description": "marshal.loads() (unsafe deserialization)"
+    },
+    {
+      "pattern": "\\bexecfile\\s*\\(",
+      "description": "execfile() (Python 2)"
+    },
+    {
+      "pattern": "\\bos\\.popen\\s*\\(",
+      "description": "os.popen()"
+    },
+    {
+      "pattern": "\\bcommands\\.getoutput\\s*\\(",
+      "description": "commands.getoutput() (Python 2)"
+    },
+    {
+      "pattern": "\\byaml\\.load\\s*\\(",
+      "description": "yaml.load() (unsafe deserialization)"
+    },
+    {
+      "pattern": "\\bcompile\\s*\\(\\s*.*?\\)",
+      "description": "compile(...) on untrusted code"
+    },
+    {
+      "pattern": "\\bstr\\.format\\s*\\(",
+      "description": "str.format(...) (format-string injection)"
+    }
+  ]
+  

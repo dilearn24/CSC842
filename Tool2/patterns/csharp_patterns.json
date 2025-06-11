@@ -1,0 +1,39 @@
+[
+    {
+      "pattern": "\\bProcess\\.Start\\s*\\(",
+      "description": "Process.Start()"
+    },
+    {
+      "pattern": "\\bBinaryFormatter\\.Deserialize\\s*\\(",
+      "description": "BinaryFormatter.Deserialize() (unsafe deserialization)"
+    },
+    {
+      "pattern": "\\bSqlCommand\\s*\\(",
+      "description": "SqlCommand(...) (potential SQL injection)"
+    },
+    {
+      "pattern": "\\bExecuteNonQuery\\s*\\(",
+      "description": "ExecuteNonQuery() (SQL execution)"
+    },
+    {
+      "pattern": "\\bExecuteReader\\s*\\(",
+      "description": "ExecuteReader() (SQL execution)"
+    },
+    {
+      "pattern": "\\bHttpWebRequest\\s*\\(",
+      "description": "HttpWebRequest(...) (potential SSRF)"
+    },
+    {
+      "pattern": "\\bWebClient\\.DownloadString\\s*\\(",
+      "description": "WebClient.DownloadString() (potential SSRF)"
+    },
+    {
+      "pattern": "\\bFile\\.ReadAllText\\s*\\(",
+      "description": "File.ReadAllText() (arbitrary file read)"
+    },
+    {
+      "pattern": "\\bAssembly\\.Load\\s*\\(",
+      "description": "Assembly.Load(...) (dynamic code loading)"
+    }
+  ]
+  

@@ -1,0 +1,43 @@
+[
+    {
+      "pattern": "\\beval\\s*\\(",
+      "description": "eval()"
+    },
+    {
+      "pattern": "\\bsystem\\s*\\(",
+      "description": "system()"
+    },
+    {
+      "pattern": "`[^`]+`",
+      "description": "Backtick command execution"
+    },
+    {
+      "pattern": "\\bopen\\s*\\(\\s*['\"]\\|\\s*",
+      "description": "open(\"|...\") (pipe to shell)"
+    },
+    {
+      "pattern": "\\bqx\\s*\\(",
+      "description": "qx() (alias for backticks)"
+    },
+    {
+      "pattern": "s/.*/.*/e",
+      "description": "s///e (regex eval)"
+    },
+    {
+      "pattern": "\\brequire\\s+",
+      "description": "require(...) (dynamic module load)"
+    },
+    {
+      "pattern": "\\buse\\s+",
+      "description": "use(...) (dynamic module load)"
+    },
+    {
+      "pattern": "\\bStorable::thaw\\s*\\(",
+      "description": "Storable::thaw() (unsafe deserialization)"
+    },
+    {
+      "pattern": "\\bStorable::freeze\\s*\\(",
+      "description": "Storable::freeze() (unsafe serialization)"
+    }
+  ]
+  

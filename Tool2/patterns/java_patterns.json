@@ -1,0 +1,31 @@
+[
+    {
+      "pattern": "\\bRuntime\\.getRuntime\\(\\)\\.exec\\s*\\(",
+      "description": "Runtime.getRuntime().exec()"
+    },
+    {
+      "pattern": "\\bnew\\s+ProcessBuilder\\s*\\(",
+      "description": "new ProcessBuilder(...)"
+    },
+    {
+      "pattern": "\\bObjectInputStream\\s*\\(",
+      "description": "ObjectInputStream (deserialization)"
+    },
+    {
+      "pattern": "\\bjava\\.lang\\.reflect\\.Method\\.invoke\\s*\\(",
+      "description": "Method.invoke(...) (reflection)"
+    },
+    {
+      "pattern": "\\bMessageFormat\\.format\\s*\\(",
+      "description": "MessageFormat.format(...)"
+    },
+    {
+      "pattern": "\\bString\\.format\\s*\\(",
+      "description": "String.format(...)"
+    },
+    {
+      "pattern": "\\bScriptEngineManager\\s*\\(",
+      "description": "ScriptEngineManager (scripting eval)"
+    }
+  ]
+  

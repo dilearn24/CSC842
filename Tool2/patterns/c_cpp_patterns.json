@@ -1,0 +1,42 @@
+[
+  {
+    "pattern": "\\bgets\\s*\\(",
+    "description": "gets()"
+  },
+  {
+    "pattern": "\\bscanf\\s*\\(",
+    "description": "scanf() without width specifier"
+  },
+  {
+    "pattern": "\\bsscanf\\s*\\(",
+    "description": "sscanf() without width specifier"
+  },
+  {
+    "pattern": "\\bfscanf\\s*\\(",
+    "description": "fscanf() without length checks"
+  },
+  {
+    "pattern": "\\bstrcpy\\s*\\(",
+    "description": "strcpy()"
+  },
+  {
+    "pattern": "\\bstrcat\\s*\\(",
+    "description": "strcat()"
+  },
+  {
+    "pattern": "\\bsprintf\\s*\\(",
+    "description": "sprintf()"
+  },
+  {
+    "pattern": "\\bvsprintf\\s*\\(",
+    "description": "vsprintf()"
+  },
+  {
+    "pattern": "\\bsystem\\s*\\(",
+    "description": "system()"
+  },
+  {
+    "pattern": "\\bpopen\\s*\\(",
+    "description": "popen()"
+  }
+]
