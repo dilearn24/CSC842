@@ -15,6 +15,7 @@ This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe func
 
 ## Requirements & Design
 * **Environment**: Python 3.6 or higher, using standard library modules (`os`, `re`, `json`, `sys`, `argparse`).
+* **Required Directory and files**:
 * Verify the `patterns/` directory contains these files:
 
    * `c_cpp_patterns.json`
@@ -26,17 +27,18 @@ This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe func
 ## Usage
 
 ```bash
-# Update patterns for C/C++
-python3 vuln_functions_scanner.py --update-patterns c_cpp new_c_cpp_patterns.json
+# Scan Python and show results
+python vuln_functions_scanner.py --lang python --dir ./my_code --display
 
-# Scan C/C++ and Python code, display, and save reports
-python vuln_functions_scanner.py \
-  --lang c_cpp python \
-  --dir /path/to/code \
-  --display \
-  --output-json findings.json \
-  --output-txt findings.txt
-```
+# Scan C/C++ only, suppress console output, save JSON
+python vuln_functions_scanner.py --lang c_cpp --dir ./my_code --no-display --output-json c_cpp_findings.json
+
+# Scan Java, Csharp, Python, Perl and save JSON & TXT
+python vuln_functions_scanner.py --lang  java csharp python perl --dir ./my_code --display --output-json findings.json --output-txt findings.txt
+
+# Append new C/C++ patterns
+python vuln_functions_scanner.py --update-patterns c_cpp custom_c_cpp.json
+
 
 ## Resources
 
