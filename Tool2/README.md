@@ -15,9 +15,7 @@ This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe func
 
 ## Requirements & Design
 * **Environment**: Python 3.6 or higher, using standard library modules (`os`, `re`, `json`, `sys`, `argparse`).
-* **Required Directory and files**:
-* Verify the `patterns/` directory contains these files:
-
+* **Configurable Patterns**: Each language has its own JSON file under `patterns/` directory. Verify the this directory contains following files:
    * `c_cpp_patterns.json`
    * `java_patterns.json`
    * `python_patterns.json`
