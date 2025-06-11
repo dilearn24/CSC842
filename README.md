@@ -9,6 +9,12 @@ A command-line Python tool for scanning source code for privacy-sensitive identi
 
 - Link: https://github.com/dilearn24/CSC842/tree/main/Tool1
 
+### Tool2 - Vulnerable Function Scanner
+A lightweight, multi-language command-line tool that quickly detects dangerous functions and methods in source code.
+
+- Link: https://github.com/dilearn24/CSC842/tree/main/Tool2
+
+
 ## Repository Structure
 Each folder includes:
 - Source code
