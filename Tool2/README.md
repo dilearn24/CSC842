@@ -4,7 +4,7 @@ A lightweight, multi-language command-line tool that quickly detects dangerous f
 
 ## Overview
 
-This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe functions (e.g. `gets()`, `eval()`, `Runtime.exec()`). Patterns are stored in per-language JSON files under `patterns/`, and users can easily append new rules at runtime without modifying the Python script.
+The Vulnerable Functions Scanner is a Python tool that can scan C/C++, Java, Python, C#, and Perl source code for known unsafe functions (e.g. `gets()`, `eval()`, `Runtime.exec()`). Patterns are stored in per-language JSON files under `patterns/`, and users can easily append new rules at runtime without modifying the Python script.
 
 ## Key Features
 
