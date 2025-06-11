@@ -48,43 +48,23 @@ python vuln_functions_scanner.py --update-patterns c_cpp custom_c_cpp.json
 
 ## Resources
 
-1. **Common C Vulnerabilities** (Medium)
-   [https://medium.com/@capturethebugs/common-c-vulnerabilities-56ffad22581e](https://medium.com/@capturethebugs/common-c-vulnerabilities-56ffad22581e)
-2. **Unsafe C Functions and Their Replacements** (Stack Overflow)
-   [https://stackoverflow.com/questions/26558197/unsafe-c-functions-and-the-replacement](https://stackoverflow.com/questions/26558197/unsafe-c-functions-and-the-replacement)
-3. **Buffer Overflow** (OWASP)
-   [https://owasp.org/www-community/vulnerabilities/Buffer\_Overflow](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)
-4. **Exploitable Java Functions** (Stack Overflow)
-   [https://stackoverflow.com/questions/4339611/exploitable-java-functions](https://stackoverflow.com/questions/4339611/exploitable-java-functions)
-5. **The Dangers of Inherently Dangerous Functions – Understanding CWE-242** (Medium)
-   [https://medium.com/@tommy.adeoye/the-dangers-of-inherently-dangerous-functions-understanding-cwe-242-and-how-to-avoid-it-in-java-12a5d2ab4f65](https://medium.com/@tommy.adeoye/the-dangers-of-inherently-dangerous-functions-understanding-cwe-242-and-how-to-avoid-it-in-java-12a5d2ab4f65)
-6. **Unsafe C# Functions: Secure Coding Practices** (Simeon on Security)
-   [https://simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices](https://simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices)
-7. **C++ Applications Vulnerability Cheat Sheet** (DZone)
-   [https://dzone.com/articles/c-applications-vulnerability-cheatsheet](https://dzone.com/articles/c-applications-vulnerability-cheatsheet)
-8. **C# Unsafe Code and Pointers** (Medium)
-   [https://medium.com/@lexitrainerph/c-unsafe-code-and-pointers-a-deep-dive-from-foundations-to-advanced-uses-82c5cd0769dc](https://medium.com/@lexitrainerph/c-unsafe-code-and-pointers-a-deep-dive-from-foundations-to-advanced-uses-82c5cd0769dc)
-9. **Python Security Documentation** (Python Security)
-   [https://python-security.readthedocs.io/security.html](https://python-security.readthedocs.io/security.html)
-10. **Code Injection in Python: Prevention Examples** (Snyk Blog)
-    [https://snyk.io/blog/code-injection-python-prevention-examples](https://snyk.io/blog/code-injection-python-prevention-examples)
-11. **Python Security Pitfalls** (Codiga Blog)
-    [https://www.codiga.io/blog/python-security-pitfalls/](https://www.codiga.io/blog/python-security-pitfalls/)
-12. **Perl Security (perlsec)** (Perl Documentation)
-    [https://perldoc.perl.org/perlsec](https://perldoc.perl.org/perlsec)
-13. **Perl Documentation (perlpod)** (Perl Documentation)
-    [https://perldoc.perl.org/perlpod](https://perldoc.perl.org/perlpod)
-14. **Common CGI Security Pitfalls** (CGI Security)
-    [https://www.cgisecurity.com/lib/sips.html](https://www.cgisecurity.com/lib/sips.html)
-15. **OWASP Cheat Sheet Series** (OWASP)
-    [https://cheatsheetseries.owasp.org/index.html](https://cheatsheetseries.owasp.org/index.html)
-16. **CWE-676: Use of Potentially Dangerous Function** (MITRE)
-    [https://cwe.mitre.org/data/definitions/676.html](https://cwe.mitre.org/data/definitions/676.html)
-17. **OWASP Top Ten** (OWASP)
-    [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
-18. **CWE-699: Development Concepts** (MITRE)
-    [https://cwe.mitre.org/data/definitions/699.html](https://cwe.mitre.org/data/definitions/699.html)
-19. **Python Regular Expressions HOWTO** (Python Docs)
-    [https://docs.python.org/3/howto/regex.html](https://docs.python.org/3/howto/regex.html)
-20. **Python Regular Expressions Library** (Python Docs)
-    [https://docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
+1.	"Common C Vulnerabilities," Medium, Available: https://medium.com/@capturethebugs/common-c-vulnerabilities-56ffad22581e
+2.	"Unsafe C Functions and Their Replacements," Stack Overflow, Available: https://stackoverflow.com/questions/26558197/unsafe-c-functions-and-the-replacement
+3.	"Buffer Overflow," OWASP, Available: https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
+4.	"Exploitable Java Functions," Stack Overflow, Available: https://stackoverflow.com/questions/4339611/exploitable-java-functions
+5.	"The Dangers of Inherently Dangerous Functions - Understanding CWE-242," Medium, Available: https://medium.com/@tommy.adeoye/the-dangers-of-inherently-dangerous-functions-understanding-cwe-242-and-how-to-avoid-it-in-java-12a5d2ab4f65
+6.	"Unsafe C# Functions: Secure Coding Practices," Simeon on Security, Available: https://simeononsecurity.com/articles/unsafe-c-sharp-functions-secure-coding-practices
+7.	"C++ Applications Vulnerability Cheat Sheet," DZone, Available: https://dzone.com/articles/c-applications-vulnerability-cheatsheet
+8.	"C# Unsafe Code and Pointers," Medium, Available: https://medium.com/@lexitrainerph/c-unsafe-code-and-pointers-a-deep-dive-from-foundations-to-advanced-uses-82c5cd0769dc
+9.	"Python Security Documentation," Python Security, Available: https://python-security.readthedocs.io/security.html
+10.	"Code Injection in Python: Prevention Examples," Snyk Blog, Available: https://snyk.io/blog/code-injection-python-prevention-examples
+11.	"Python Security Pitfalls," Codiga Blog, Available: https://www.codiga.io/blog/python-security-pitfalls/
+12.	"Perl Security (perlsec)," Perl Documentation, Available: https://perldoc.perl.org/perlsec
+13.	"Perl Documentation (perlpod)," Perl Documentation, Available: https://perldoc.perl.org/perlpod
+14.	"Common CGI Security Pitfalls," CGI Security, Available: https://www.cgisecurity.com/lib/sips.html
+15.	"OWASP Cheat Sheet Series," OWASP, Available: https://cheatsheetseries.owasp.org/index.html
+16.	"CWE-676: Use of Potentially Dangerous Function," MITRE, Available: https://cwe.mitre.org/data/definitions/676.html
+17.	"OWASP Top Ten," OWASP, Available: https://owasp.org/www-project-top-ten/
+18.	"CWE-699: Development Concepts," MITRE, Available: https://cwe.mitre.org/data/definitions/699.html
+19.	"Python Regular Expressions HOWTO," Python Documentation, Available: https://docs.python.org/3/howto/regex.html
+20.	"Python Regular Expressions Library," Python Documentation, Available: https://docs.python.org/3/library/re.html
