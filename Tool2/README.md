@@ -40,7 +40,7 @@ python vuln_functions_scanner.py --update-patterns c_cpp custom_c_cpp.json
 
 ## Repository Resources
 
-* **Code**: `privacy_compliance_scanner.py`
+* **Code**: `vuln_functions_scanner.py`
 * **Documentation**: `README.md`
 * **Demo Video**: [https://youtu.be/L5NGIU4xIbc](https://youtu.be/L5NGIU4xIbc)
 
