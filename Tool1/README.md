@@ -15,11 +15,9 @@ The Privacy Compliance Scanner is a python command-line application that scans s
 
 ## Requirements & Design
 
-* **Environment**: Python 3.6 or higher, using standard library modules (`argparse`, `os`, `re`, `json`, `sys`).
+* **Environment**: Python 3.6 or higher, using standard library modules (`os`, `re`, `json`, `sys`).
 * **Modular Architecture**: Organized functions for file scanning (`scan_file`), directory traversal (`scan_directory`), comment stripping, pattern loading, and report generation. See image below for directory of the tool.
   
-  ![image](https://github.com/user-attachments/assets/e379a980-cde8-443d-8f5e-9d4350b445f1)
-
   ![image](https://github.com/user-attachments/assets/f3954a6e-3d0f-40fb-a4b7-aa9e3fb074f0)
 
 * **Interactive CLI**: Menu-driven interface for scanning code, loading custom patterns, reviewing results, and exporting reports without complex flags.
@@ -50,13 +48,11 @@ Example:
 
 Run as seen in the images below:
 
-![image](https://github.com/user-attachments/assets/37250175-087f-467a-8a5c-757572aa0586)
+![image](https://github.com/user-attachments/assets/d5c6dbbf-0400-4b03-8c96-ec238fb1f072)
 
-![image](https://github.com/user-attachments/assets/04b99f2f-e0d9-4c66-93f9-c28aceaa3294)
+![image](https://github.com/user-attachments/assets/bd07a3a3-2a42-4c8b-8456-28953fcd8693)
 
-![image](https://github.com/user-attachments/assets/9bd6d58e-19d2-416e-a884-3f4f321617e1)
-
-![image](https://github.com/user-attachments/assets/398b21ae-8e57-43da-8f26-9fdf845af1dc)
+![image](https://github.com/user-attachments/assets/1514c72d-e50a-4789-8cd2-adab38ded19c)
 
 ## Configuration and Patterns
 
@@ -72,18 +68,16 @@ Default patterns cover GDPR and CCPA categories. To add or override the default 
    ```
 2. In the menu, choose option 2 **Load custom patterns from JSON** and enter the path to your JSON file. It will scan using the custom patterns as shown below.
    
-   ![image](https://github.com/user-attachments/assets/2346f00c-3233-4799-88d6-c387903cba65)
+   ![image](https://github.com/user-attachments/assets/828f8b35-2026-47ae-a537-187d7a239ba0)
 
-   ![image](https://github.com/user-attachments/assets/15e5b2c0-208d-47b2-b960-9c45e717a360)
-
-   ![image](https://github.com/user-attachments/assets/3d93693c-e3ba-4311-b5d7-d90493223dbe)
+   ![image](https://github.com/user-attachments/assets/b01f7f3b-f237-4447-a0fd-f8d6c78cd579)
 
 ## Repository Resources
 
 * **Code**: `privacy_compliance_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**: [https://youtu.be/VIDEO\_ID](https://youtu.be/VIDEO_ID)
-
+* **Demo Video**: [https://youtu.be/L5NGIU4xIbc](https://youtu.be/L5NGIU4xIbc)
+  
 ## Resources
 
 1. “General Data Protection Regulation (GDPR) – legal text,” General Data Protection Regulation (GDPR), Apr. 22, 2024. Available: [https://gdpr-info.eu/](https://gdpr-info.eu/)
