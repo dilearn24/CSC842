@@ -38,7 +38,13 @@ python vuln_functions_scanner.py --lang  java csharp python perl --dir ./my_code
 
 # Append new C/C++ patterns
 python vuln_functions_scanner.py --update-patterns c_cpp custom_c_cpp.json
+```
 
+## Repository Resources
+
+* **Code**: `privacy_compliance_scanner.py`
+* **Documentation**: `README.md`
+* **Demo Video**: [https://youtu.be/L5NGIU4xIbc](https://youtu.be/L5NGIU4xIbc)
 
 ## Resources
 
