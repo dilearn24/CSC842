@@ -4,7 +4,7 @@ A lightweight, multi-language command-line tool that quickly detects dangerous f
 
 ## Overview
 
-This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe functions (e.g. `gets()`, `eval()`, `Runtime.exec()`). Patterns are stored in per-language JSON files under `patterns/`, and you can easily append new rules at runtime without modifying the Python script.
+This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe functions (e.g. `gets()`, `eval()`, `Runtime.exec()`). Patterns are stored in per-language JSON files under `patterns/`, and users can easily append new rules at runtime without modifying the Python script.
 
 ## Key Features
 
@@ -26,16 +26,16 @@ This tool scans C/C++, Java, Python, C#, and Perl projects for known unsafe func
 
 ```bash
 # Scan Python and show results
-python vuln_functions_scanner.py --lang python --dir ./my_code --display
+python3 vuln_functions_scanner.py --lang python --dir ./my_code --display
 
 # Scan C/C++ only, suppress console output, save JSON
-python vuln_functions_scanner.py --lang c_cpp --dir ./my_code --no-display --output-json c_cpp_findings.json
+python3 vuln_functions_scanner.py --lang c_cpp --dir ./my_code --no-display --output-json c_cpp_findings.json
 
 # Scan Java, Csharp, Python, Perl and save JSON & TXT
-python vuln_functions_scanner.py --lang  java csharp python perl --dir ./my_code --display --output-json findings.json --output-txt findings.txt
+python3 vuln_functions_scanner.py --lang  java csharp python perl --dir ./my_code --display --output-json findings.json --output-txt findings.txt
 
 # Append new C/C++ patterns
-python vuln_functions_scanner.py --update-patterns c_cpp custom_c_cpp.json
+python3 vuln_functions_scanner.py --update-patterns c_cpp new_c_cpp.json
 ```
 
 ## Repository Resources
