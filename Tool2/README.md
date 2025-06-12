@@ -42,7 +42,7 @@ python3 vuln_functions_scanner.py --update-patterns c_cpp new_c_cpp.json
 
 * **Code**: `vuln_functions_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**:
+* **Demo Video**: https://youtu.be/PIGIxSSVEAg
 
 ## Resources
 
