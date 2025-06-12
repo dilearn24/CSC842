@@ -22,7 +22,7 @@ The Vulnerable Functions Scanner is a Python tool that can scan C/C++, Java, Pyt
    * `csharp_patterns.json`
    * `perl_patterns.json`
 
-## Usage
+## Usage Guide
 
 ```bash
 # Scan Python and show results
