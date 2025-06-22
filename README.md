@@ -14,6 +14,10 @@ A lightweight, multi-language command-line tool that quickly detects dangerous f
 
 - Link: https://github.com/dilearn24/CSC842/tree/main/Tool2
 
+### Tool3 - Privacy Threat Model Scanner
+A Python command-line tool that quickly detects missing privacy controls in OWASP Threat Dragon data-flow diagrams (DFD).
+
+- Link: https://github.com/dilearn24/CSC842/tree/main/Tool3
 
 ## Repository Structure
 Each folder includes:
