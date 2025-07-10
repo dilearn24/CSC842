@@ -19,6 +19,11 @@ A Python command-line tool that quickly detects missing privacy controls in OWAS
 
 - Link: https://github.com/dilearn24/CSC842/tree/main/Tool3
 
+### Tool4 - UML Design Privacy Scanner
+A Python command-line tool that scans design diagrams for privacy controls.
+
+- Link: https://github.com/dilearn24/CSC842/tree/main/Tool4
+
 ## Repository Structure
 Each folder includes:
 - Source code
