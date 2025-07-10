@@ -56,7 +56,7 @@ python3 privacy_thread_model_scanner.py --model name-model.json --rules rules.js
 
 * **Code**: `privacy_thread_model_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**: 
+* **Demo Video**: https://youtu.be/-8fNAqb1uEw
 
 ## Resources
 
