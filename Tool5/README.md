@@ -60,7 +60,7 @@ python3 privacy_application_log_scanner.py --logs pygoat-logs.ndjson --rules rul
 
 * **Code**: `privacy_application_log_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**: 
+* **Demo Video**: https://youtu.be/C88CAh3R8zc
 
 ## Resources
 
