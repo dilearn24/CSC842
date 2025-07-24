@@ -57,7 +57,7 @@ python3 uml_design_privacy_scanner.py --model edtrack.xmi --rules design_privacy
 
 * **Code**: `uml_design_privacy_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**: 
+* **Demo Video**: https://youtu.be/FJD0-Mh3KxI
 
 ## Resources
 
