@@ -24,6 +24,11 @@ A Python command-line tool that scans design diagrams for privacy controls.
 
 - Link: https://github.com/dilearn24/CSC842/tree/main/Tool4
 
+### Tool5 - Privacy Application Log Scanner
+A Python command‑line tool that scans application logs (Vector‑formatted NDJSON) for privacy‑sensitive data.
+
+- Link: https://github.com/dilearn24/CSC842/tree/main/Tool5
+
 ## Repository Structure
 Each folder includes:
 - Source code
