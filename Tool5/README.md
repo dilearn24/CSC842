@@ -50,17 +50,17 @@ The Privacy Application Log Scanner tool ingests live application logs collectin
 python3 privacy_application_log_scanner.py --update-rules extra_rules.json rules.json
 
 # Quick scan and display results
-python3 privacy_application_log_scanner.py --display
+python3 privacy_application_log_scanner.py --logs pygoat-logs.ndjson --rules rules.json --display
 
 # Save both TXT and JSON results
-python3 privacy_application_log_scanner.py --no-display --output-txt results.txt --output-json results.json
+python3 privacy_application_log_scanner.py --logs pygoat-logs.ndjson --rules rules.json --display --output-json results.json  --output-txt results.txt
 ```
 
 ## Repository Resources
 
 * **Code**: `privacy_application_log_scanner.py`
 * **Documentation**: `README.md`
-* **Demo Video**: https://youtu.be/-8fNAqb1uEw
+* **Demo Video**: 
 
 ## Resources
 
